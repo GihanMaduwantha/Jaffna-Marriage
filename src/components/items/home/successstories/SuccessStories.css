@@ -1,0 +1,139 @@
+/* ############################ Gihan 07.11.23 ############################### */
+
+.s-container {
+    
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 3%;
+    left: 528.6px;
+    
+  }
+  .s-container-sub {
+    
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 3%;
+    left: 528.6px;
+    
+  }
+  .t-head{
+    text-Align: center;
+    font-Size:36px;
+    font-family:Jomolhari;
+    color: rgba(0, 0, 0, 1);
+    line-height: 57.66px;
+    margin: auto;
+    margin-left: 2%;
+  }
+
+  
+
+  .t-descript{
+    text-align: center;
+    font-size: 20px;
+    font-family: Jomolhari;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 32.03px;
+    
+  
+  }
+  
+  .slider-container{   
+    margin-top: 15%;
+    height: auto;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+
+
+  .cdimage{
+    border-radius: 10px; 
+  }
+
+  .cdhedding{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 24px;
+    font-family: Jomolhari;
+    color: rgba(0, 0, 0, 0.7);
+    top: 3623px;
+  }
+ .maincard{
+  background-color: rgba(255, 204, 35, 0.103);
+ }
+ .cddes {
+  text-align: center;
+  font-family: Noto Sans Tamil;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 20px;
+  padding-right: 20px;
+  max-height: 180px;
+  overflow: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  background-color: rgba(252, 252, 252, 0.363);
+  transition: background-color 0.2s ease-in-out; /* Add a smooth transition effect */
+}
+.cddesHover{
+  background-color: rgb(85, 65, 0); 
+}
+.read-more {
+
+  color: white;
+  position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    font-size: 20px;
+}
+  .show-more {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+  
+    /* Bounce effect on hover */
+    &:hover {
+      transform: translateX(-50%) translateY(-5px);
+    }
+  }
+  .desk{
+    display: inline;
+  }
+  .mobile{
+    display: none;
+  }
+  @media (max-width: 600px) {
+    .s-container-sub {
+      width: 100%;
+      margin: auto;
+      padding: 5px;
+      border-radius: 3%;
+      left: 528.6px;
+      
+    }
+    .slider-container{ 
+      margin-top: 2%;
+    }
+    .desk{
+      display: none;
+    }
+    .mobile{
+      display: inline;
+    }
+  }
+  
+
+
+/* ############################ Gihan ################################### */
+

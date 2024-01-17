@@ -1,0 +1,367 @@
+/* #################################### gihan 02.12.23 ########################################### */
+
+.avatar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.avatar img{
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    margin: auto;
+    border: 4px solid #b89c55;
+}
+
+.UserName{
+    text-align: center;
+    font-family: Jomolhari;
+    font-size: 32px;
+    color: #000000B2;
+}
+
+.UserEmail{
+    text-align: center;
+    font-Size: 16px;
+    font-family: Jomolhari;
+    color: #00000087;
+}
+
+.stacked-button{ 
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+.stacked-button-2{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: 1px;
+    margin-top: auto;
+  }
+
+.prof-head{
+    padding: 5px 25px;
+    font-size: 32px;
+    justify-content: center;
+    align-items: center;
+    font-family: Jomolhari;
+    margin-bottom: 50px;
+}
+
+.living-place{
+    padding: 5px 15px;
+    font-family: Jomolhari;
+    font-size: 20px;
+    color: #000000B0;
+    
+}
+
+
+
+.Country{
+    padding: 5px 15px;
+    margin-top: 50px;
+    font-family: Jomolhari;
+    font-size: 20px;
+    color: #000000B0;
+}
+
+.Language{
+    padding: 5px 15px;
+    margin-top: 50px;
+    font-family: Jomolhari;
+    font-size: 20px;
+    color: #000000B0;
+}
+
+.Age{
+    padding: 5px 15px;
+    margin-top: 50px;
+    font-family: Jomolhari;
+    font-size: 20px;
+    color: #000000B0;
+}
+
+.Education{
+    padding: 5px 15px;
+    margin-top: 50px;
+    font-family: Jomolhari;
+    font-size: 20px;
+    color: #000000B0;
+}
+
+.User-Height{
+    padding: 5px 15px;
+    margin-top: 50px;
+    font-family: Jomolhari;
+    font-size: 20px;
+    color: #000000B0;
+}
+
+.Work-Dtails{
+    padding: 5px 15px;
+    margin-top: 50px;
+    font-family: Jomolhari;
+    font-size: 20px;
+    color: #000000B0;
+}
+.Religion{
+    padding: 5px 15px;
+    font-family: Jomolhari;
+    font-size: 20px;
+    color: #000000B0;
+}
+
+.Gender{
+    padding: 5px 15px;
+    margin-top: 50px;
+    font-family: Jomolhari;
+    font-size: 20px;
+    color: #000000B0;
+}
+
+.Town{
+    padding: 5px 15px;
+    margin-top: 50px;
+    font-family: Jomolhari;
+    font-size: 20px;
+    color: #000000B0;
+}
+
+.cast{
+    padding: 5px 15px;
+    margin-top: 50px;
+    font-family: Jomolhari;
+    font-size: 20px;
+    color: #000000B0;
+}
+
+.weight{
+    padding: 5px 15px;
+    margin-top: 50px;
+    font-family: Jomolhari;
+    font-size: 20px;
+    color: #000000B0;
+}
+
+
+
+.Span-style{
+    color: aliceblue;
+}
+
+.left-container{
+    height: auto;
+    width: 25%;
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+
+.right-container{
+    width: 75%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.body-head{
+    font-family: Jomolhari;
+    font-size: 30px;
+    color: #000000B0
+        
+}
+.follow-text{
+    margin-left: 5px;
+    
+}
+
+
+
+.plus-btn{
+    width: 75px;
+    height: auto;
+    color: rgb(167, 167, 167);
+    
+
+}
+.add-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000033;
+    border: 1px solid #00000033;
+    }
+
+
+    .close-btn{
+        background-color: transparent;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        top: 20px;
+        right: 20px;
+        color: aliceblue;
+        font-size: 30px;
+    }
+    
+    .close-btn-container{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        background-color: #b89c55;
+        
+        
+    }
+    
+    .save-btn{
+        background-color: transparent;
+        border: none;
+        justify-content: left;
+        align-items: left;
+        padding-left: 5px;
+        color: aliceblue;
+        
+       
+    }
+    
+    .save-btn-container{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 50px;
+        position: absolute;
+        border-radius: 10px;
+        font-family: Jomolhari;
+        font-size: 20px;
+        border: 1px;
+        bottom: 30px;
+        right: 45px;
+        
+    }
+
+
+@media only screen and (max-width: 640px){
+    .left-container{
+        height: 200px;
+        height: auto;
+        width:100%;
+         
+    }
+
+    .right-container{
+        width:100%;
+        padding: 30px;
+    }
+
+    .label-set{
+        width: 100%;    
+    }
+
+    .prof-head{
+        padding: 5px 25px;
+        font-size: 32px;
+        text-align: center;
+        font-family: Jomolhari;
+        padding-right: 25px;
+    }
+    .save-btn-container{
+
+        width: 120px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .save-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    
+    
+}
+
+@media only screen and (max-width: 900px){
+    .avatar img{
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        margin: auto;
+        border: 4px solid #b89c55;
+    }
+ 
+    .stacked-button{
+        width: 100px;
+        height: 32px;
+        height: auto;
+        margin: auto;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+        border-radius: 10px;
+        border: 1px;
+    }
+
+    .stacked-button-2{
+        width: 100px;
+        height: 32px;
+        height: auto;
+        margin: auto;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+        border-radius: 10px;
+        border: 1px;
+    }
+    .close-btn-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        background-color: #b89c55;
+    }
+
+    .close-btn{
+        font-size: 15px;
+    }
+
+    
+}
+
+.hidden {
+    display: none;
+  }
+
+
+/* ################################### gihan ############################################ */

@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+
+/* STRUCTURE */
+
+.wrapper {
+  padding: 5px;
+  max-width: 960px;
+  width: 95%;
+  margin: 20px auto;
+}
+
+.header {
+    padding: 0 15px ;
+    margin-bottom: 40px;
+    
+    color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.t-btn{
+    background-color: rgba(168, 147, 66, 1); 
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Jomolhari;
+}
+
+.columns {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.column {
+  flex: 1;
+  text-align: center;
+}
+
+.column:first-child {
+  margin-left: 0;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+
+.footer {
+  padding: 0 15px;
+  display: flex;
+  justify-content: end;
+  flex-flow: row;
+  margin-top: 80px;
+
+}
+.site-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-size: 12px;
+    font-family: Jomolhari;
+}
+.d-icon{
+    background-color: white;
+    color: rgba(168, 147, 66, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-text{
+    font-size: 24px;
+    font-family: Jomolhari;
+}
+
+.logo-section{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-end;
+  margin: 30px 0px ;
+}
+
+.d-p{
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 980px) {
+  .columns .column {
+    margin-bottom: 5px;
+    /* flex-basis: 40%; */
+  }
+
+  .columns .column:nth-last-child(2) {
+    margin-right: 0;
+  }
+
+  .columns .column:last-child {
+    flex-basis: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .columns .column {
+    flex-basis: 100%;
+    margin: 0 0 15px 0;
+    flex-flow: row;
+   
+  }
+
+  .footer {
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    margin-top: 80px;
+  
+  }
+.main-icon{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-bottom: 20px;
+}
+
+.t-text{
+    text-align: center;
+}
+
+
+.e-col{
+    flex-flow: row;
+    display: flex;
+    justify-content: center;
+}
+
+.d-icon{
+    padding-right: 5px;
+}
+
+
+.d-p{
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+}
+
+
+

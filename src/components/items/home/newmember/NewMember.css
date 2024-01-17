@@ -1,0 +1,109 @@
+/* ############################ Gihan 14.11.23 ############################### */
+
+.s-container-2{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    left: 528.6px;
+    
+  }
+  .s-container-2-sub{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    left: 528.6px;
+    
+  }
+  .t-head-2{
+    text-Align: center;
+    font-Size:36px;
+    font-family:Jomolhari;
+    color: rgba(0, 0, 0, 1);
+    line-height: 57.66px;
+    margin: auto;
+    margin-left: 2%;
+  }
+
+  
+
+  .t-descript-2{
+    text-align: center;
+    font-size: 20px;
+    font-family: Jomolhari;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 32.03px;
+    
+  
+  }
+  .slider-container-2{
+     
+    margin-top: 20%;
+    /* padding-left: 16px; */
+    
+    
+  }
+  .sider__card{
+    
+    height: 384px; 
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 1px #07050566;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    /* margin: 15px; */
+  }
+
+
+  .sider__card__mask {
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(360deg, #151414 -1.17%, rgba(27, 25, 25, 0.7) 12.42%, rgba(90, 86, 86, 0) 100%);
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .sider__info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transform: translateY(120px);
+    transition: transform 0.3s ease;
+  }
+  
+  .sider__card:hover .sider__info {
+    transform: translateY(0px);
+    background: linear-gradient(360deg, #151414 -1.17%, rgba(27, 25, 25, 0.7) 48.28%, rgba(90, 86, 86, 0) 100%);
+
+  }
+  
+  .sider__info h1 {
+    margin: 0px 10px 10px 20px;
+    font-size: 22px;
+    font-family: Jomolhari;
+  }
+  
+  .sider__info p {
+    margin: 0px 10px 10px 20px;
+    font-family: Jomolhari;
+    font-size: 14px;
+  }
+  
+  .sider__info button {
+    padding: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    background: rgba(168, 147, 66, 0.85);
+    border: 1px;
+    font-size: 15px;
+  }
+
+
+
+
+/* ############################ Gihan ################################### */
+
